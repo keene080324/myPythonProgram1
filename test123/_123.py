@@ -6,18 +6,7 @@ e=int(input("你的生日年(只要填數字)是："))
 while e>data[0]:
     e=int(input("這一年還沒到，請重新填寫："))
 b=int(input("你的生日月(只要填數字)是："))
-while b<13:
-    b=input("沒有這一月，請重新填寫：")
 c=int(input("你的生日日(只要填數字)是："))
-while c<32:
-    if c==31:
-        if b in 2469 or b==11:
-            c=input("沒有這一天，請重新填寫：")
-    elif c>28:
-        if b==2:
-            c=input("沒有這一天，請重新填寫：")
-    else:
-        c=input("沒有這一天，請重新填寫：")
 if b==1:
     if c<22:
         f="魔羯座"
@@ -81,5 +70,7 @@ elif b==12:
 print("你是"+f)
 d=input("你的血型(填A、B、O或AB)是：")
 if d in"AB O":
-    print("姓名："+a+"\n"+"生日："+e+"/"+b+"/"+c+
-          "\n"+"星座："+f+"\n"+"血型："+d)
+    b=str(b)
+    c=str(c)
+    e=str(e)
+    print("姓名："+a+"\n"+"生日："+e+"/"+b+"/"+c+"\n"+"星座："+f+"\n"+"血型："+d)
