@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "加減乘除計算機", "加減乘除計算機\加減乘除計算機.pyproj", "{86B50D14-CB40-49D1-9BE8-ACF59B6C9111}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86B50D14-CB40-49D1-9BE8-ACF59B6C9111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B50D14-CB40-49D1-9BE8-ACF59B6C9111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5B02BA4-4E59-4DDD-9F57-4D395CF2FF73}
+	EndGlobalSection
+EndGlobal
