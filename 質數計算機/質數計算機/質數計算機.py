@@ -1,15 +1,8 @@
 while True:
     a=input("請輸入一個數字或是輸入no結束查質數：")
     b=0
-    while True:
-        if a=="no":
-            break
-        if a[b] in "1234567890"==True:
-            b=b+1
-            if len(a)==b:
-                break
-        else:
-            a=input("請重新填寫：")
+    while str.isdigit(a)==False and a!="no":
+        a=input("請重新輸入一個數字或是輸入no結束查質數：")
     if a=="no":
         break
     a=int(a)
@@ -20,10 +13,10 @@ while True:
     elif a<=1:
         print("不是質數也不是合數")
     else:
-        d=2
-        while a%d != 0:
-            print("質數")
-            break
-        while a%d == 0:
-            print("合數")
-            break
+        for c in range(2,a):
+            if a%c==0:
+                print("合數")
+                break
+            elif c==a-1:
+                print("質數")
+                break
