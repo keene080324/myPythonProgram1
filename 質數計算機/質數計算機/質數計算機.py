@@ -8,8 +8,6 @@ while True:
     a=int(a)
     if a==2 or a==3:
         print("質數")
-    elif a==4:
-        print("合數")
     elif a<=1:
         print("不是質數也不是合數")
     else:
