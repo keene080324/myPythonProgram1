@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "彩券選號機3", "彩券選號機3.pyproj", "{DC0A9DF1-6CA9-43D4-8161-021D91D0EE30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC0A9DF1-6CA9-43D4-8161-021D91D0EE30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0A9DF1-6CA9-43D4-8161-021D91D0EE30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF0615E8-805B-4787-B473-39EE86EF4626}
+	EndGlobalSection
+EndGlobal
