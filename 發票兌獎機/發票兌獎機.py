@@ -2,21 +2,19 @@ d=[]
 i=[]
 a=input("請輸入特別獎號碼(8碼)：")
 while len(a)!=8 and str.isdigit(a)==False:
-    a=input()
+    a=input("請重新輸入特別獎號碼(8碼)：")
 b=input("請輸入特獎號碼(8碼)：")
 while len(b)!=8 and str.isdigit(b)==False:
-    b=input()
+    b=input("請重新輸入特獎號碼(8碼)：")
 for c in range(1,4):
     e=input("請輸入第",c,"個頭獎號碼(8碼)：")
-    while len(e)!=3and str.isdigit(e)==False and e in d:
+    while len(e)!=8and str.isdigit(e)==False and e in d:
         e=input("請重新輸入第",c,"個頭獎號碼(8碼)：")
     d.append(e)
 f=input("請輸入增開六獎的號碼數(1-3)：")
 while f!="1"and f!="2"and f!="3":
     f=input("請輸入增開六獎的號碼數(1-3)：")
-    while f!="1"and f!="2"and f!="3":
-        f=input("請重新輸入增開六獎的號碼數(1-3)：")
-    f=int(f)
+f=int(f)
 for g in range(1,f+1):
     h=input("請輸入第",g,"個增開六獎(3碼)：")
     while len(h)!=3and str.isdigit(h):
@@ -96,4 +94,7 @@ while True:
             print("恭喜中六獎(200)")
         else:
             print("下次再努力吧！")
-    for l in range(f):
+    elif j in i:
+        print("恭喜中六獎(200)")
+    else:
+        print("下次再努力吧！")
